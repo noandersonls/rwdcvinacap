@@ -1,0 +1,49 @@
+
+* {
+	/* Resets aqui: */
+	margin:0;
+	padding:0;
+}
+
+
+/* Media queries for screen sizes */
+/* Mayor a 960px diseño primario */
+
+
+/* Entre 960px y 480px */ 
+
+@media (min-width:480px) and (max-width:960px) {
+  body {
+    color: darkslategray;
+  }
+
+  .navbar-menu {
+    display: flex;
+    justify-content: center;
+  }
+
+  .navbar-menu .navbar-item {
+    align-items: center;
+    display: flex;
+    flex-grow: 0;
+    flex-shrink: 0;
+    color: black !important;
+  }
+}
+
+/* Menor a  480px */ 
+
+@media (max-width: 480px) {
+  body {
+     color: lightsalmon;
+  }
+
+  .main-section {
+    flex-direction: column;
+  }
+
+  .ml-6 {
+    margin-left: 0px !important;
+    padding: 2rem;
+  }
+}​
